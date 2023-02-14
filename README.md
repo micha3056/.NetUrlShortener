@@ -26,6 +26,7 @@ Getting Started
     Test your implementation using a web browser or a tool like curl
 
 # Hints for MS SQL Server Manager
+- the database is generated manually with MS SQL Server Manager, check out the dump in ./dumps
 - Install SQL Express 2019
 - Modify Database Access for mixed authentification
 - Install MSSQL Server Manager 2019 (hint: you cant create tables in older or backend versions!)
