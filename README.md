@@ -1,4 +1,4 @@
-Backend Coding Challenge
+# Backend Coding Challenge
 
 Overview
 
@@ -24,3 +24,14 @@ Getting Started
     Run the application with your IDE of choice or by running dotnet run --project ./src/Api/Api.csproj in the project root directory in a terminal.
     Implement the required endpoints. Basic scaffolding for them already exists in the <project_root>/src/Api/Endpoints/Url directory.
     Test your implementation using a web browser or a tool like curl
+
+# Hints for MS SQL Server Manager
+- Install SQL Express 2019
+- Modify Database Access for mixed authentification
+- Install MSSQL Server Manager 2019 (hint: you cant create tables in older or backend versions!)
+- Create database
+- Create a SQL User in MSSQL Server Manager and grant access to database
+- if needed restart MSSQL Express service
+- Settings in MSSQL to modify tables: Optionen->Designer-Speichern von Änderungen verhindern
+- ConnectionString: Data Source=localhost\SQLEXPRESS;Initial Catalog=testDatabase;Persist Security Info=True;User ID=user;Password=*****
+- Powershell-Script for testing ConnectionString is present: .\powershell\testDBConnect.ps1
