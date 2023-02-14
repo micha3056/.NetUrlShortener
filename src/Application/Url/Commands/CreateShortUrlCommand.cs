@@ -43,8 +43,8 @@ public class CreateShortUrlCommandHandler : IRequestHandler<CreateShortUrlComman
 
     public CreateShortUrlCommandHandler(IApplicationDbContext context, IHashids hashids)
     {
-        _context = context;
-        _hashids = hashids;
+        _context = context;     //wrap Connection String into context    
+        _hashids = hashids;     //todo generate from alphabet....but how long?
     }
 
 

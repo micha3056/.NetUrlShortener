@@ -36,3 +36,7 @@ Getting Started
 - Settings in MSSQL to modify tables: Optionen->Designer-Speichern von Änderungen verhindern
 - ConnectionString: Data Source=localhost\SQLEXPRESS;Initial Catalog=testDatabase;Persist Security Info=True;User ID=user;Password=*****
 - Powershell-Script for testing ConnectionString is present: .\powershell\testDBConnect.ps1
+
+## Screenshots
+	Database Content:
+<img src="./screenshots/database.png" width="600">
