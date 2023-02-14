@@ -38,5 +38,5 @@ Getting Started
 - Powershell-Script for testing ConnectionString is present: .\powershell\testDBConnect.ps1
 
 ## Screenshots
-	Database Content:
-<img src="./screenshots/database.png" width="600">
+Database Content:
+<img src="./screenshots/database.png" width="200">
